@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/stackoverflow
+    username: postgres
+    password: password
+  jpa:
+    show-sql: true
+
+#server:
+#  port: 8005
+
+jwtSecret: "gJ9B3DKt6YFXkuPueje3DnZM1uUAyLywt1g0UWyA"
+jwtExpirationMs: "86400000"
+
+
